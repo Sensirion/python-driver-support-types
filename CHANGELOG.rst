@@ -3,7 +3,7 @@ CHANGELOG
 
 0.3.0
 :::::
-- unreleased
+- Update dependencies and CI
 
 0.2.0
 :::::
