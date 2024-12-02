@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 ################################
 
 # Python versions this package is compatible with
-python_requires = '>=3.8, <4'
+python_requires = '>=3.11, <4'
 
 # Packages that this package imports. List everything apart from standard lib packages.
 install_requires = [
@@ -82,7 +82,6 @@ setup(
     extras_require=extras_require,
     classifiers=[
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.11',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]

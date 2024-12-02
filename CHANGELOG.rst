@@ -4,6 +4,7 @@ CHANGELOG
 0.3.0
 :::::
 - Update dependencies and CI
+- Provide c-struct template
 
 0.2.0
 :::::
