@@ -1,10 +1,19 @@
 CHANGELOG
 ---------
 
+1.0.1
+:::::
+- support mixin access even if driver class is derived
+
+1.0.0
+:::::
+- tag 1.0.0
+- Provide c-struct template
+
 0.3.0
 :::::
 - Update dependencies and CI
-- Provide c-struct template
+
 
 0.2.0
 :::::
