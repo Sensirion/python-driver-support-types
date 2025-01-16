@@ -4,10 +4,20 @@ from __future__ import annotations
 
 import functools
 import types
+import sys
 from ctypes import (LittleEndianStructure, BigEndianStructure,
                     Array, Structure)
-from inspect import get_annotations
+
 from typing import TypeVar, Any, Callable, Type, no_type_check, Dict
+
+# the function get annotation is only available in python from version 3.10 upwards
+# earlier versions require another implementation
+if sys.version_info.major < 3:
+    raise NotImplementedError("C-struct cannot be used with python 2.x or older")
+if sys.version_info.minor < 10:
+    from sensirion_driver_support_types.py_legacy import get_annotations
+else:
+    from inspect import get_annotations
 
 T = TypeVar('T')
 LittleEndian = LittleEndianStructure
