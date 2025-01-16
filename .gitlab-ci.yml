@@ -15,14 +15,21 @@ check_editorconfig:
 py3p11_linux_build:
   extends: .py3p11_linux_build_v3
 
+py3p8_linux_test:
+  extends: .py3p8_linux_test_v3
+
 py3p11_linux_test:
   extends: .py3p11_linux_test_v3
 
 py3p11_64bit_win_build:
   extends: .py3p11_windows_build_v3
 
+py3p8_64bit_win_test:
+  extends: .py3p8_windows_test_v3
+
 py3p11_64bit_win_test:
   extends: .py3p11_windows_test_v3
+
 
 mypy:
   stage: build

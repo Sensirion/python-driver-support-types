@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+1.1.0
+:::::
+- support c-structs for python 3.8
+
 1.0.1
 :::::
 - support mixin access even if driver class is derived
