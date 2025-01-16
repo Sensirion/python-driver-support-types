@@ -1,7 +1,7 @@
 CHANGELOG
 ---------
 
-1.1.0
+1.1.1
 :::::
 - support c-structs for python 3.8
 
