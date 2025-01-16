@@ -82,7 +82,8 @@ setup(
     extras_require=extras_require,
     classifiers=[
         'Intended Audience :: Developers',
-        'Programming Language :: Python :: 3.8 :: 3.11',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
