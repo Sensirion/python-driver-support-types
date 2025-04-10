@@ -9,8 +9,11 @@ class BitfieldContainer:
     """This class will be used as a mixin. The specializing class is expected to declare the
     used bitfields as class variables. see in the test bench for examples
     """
-    def __init__(self, int_value: int = 0):
+
+    def __init__(self, int_value: int = 0, **kwargs):
         self._int_value: int = int_value
+        for key, value in kwargs.items():
+            self.__setattr__(key, value)
 
     def __str__(self):
         field_values = []
