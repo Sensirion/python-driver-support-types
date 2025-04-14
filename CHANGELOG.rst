@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+1.2.0
+:::::
+- support bitfield initialization
+
 1.1.1
 :::::
 - support c-structs for python 3.8
