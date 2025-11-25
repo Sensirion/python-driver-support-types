@@ -5,7 +5,7 @@ This repository contains utility classes that are used in various sensirion pyth
 
 ## Usage
 
-See package description in [README.rst](README.rst) and user manual at
+See package description in [README.rst](https://github.com/Sensirion/python-driver-support-types/blob/master/README.rst) and user manual at
 https://sensirion.github.io/sensirion-driver-support-types/.
 
 ## Development
@@ -47,5 +47,5 @@ sphinx-versioning build docs docs/_build/html  # Build documentation
 
 ## License
 
-See [LICENSE](LICENSE).
+See [LICENSE](https://github.com/Sensirion/python-driver-support-types/blob/master/LICENSE).
 
