@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+1.2.1
+:::::
+- Update project structure
+
 1.2.0
 :::::
 - support bitfield initialization
